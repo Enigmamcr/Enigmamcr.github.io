@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+    <div class="time-tracking-dashboard">
+
+      <div class="profile-wrap">
+        <div class="profile-details">
+          <span class="profile-picture">
+            <img src="/images/image-jeremy.png" alt="Jeremy Robson">
+          </span>
+          <span class="profile-name">Report for<span>Jeremy Robson</span></span>
+        </div>
+
+        <div class="profile-options">
+          <button class="profile-selection" id="daily">Daily</button>
+          <button class="profile-selection active" id="weekly">Weekly</button>
+          <button class="profile-selection" id="monthly">Monthly</button>
+        </div>
+      </div>
+
+      <div class="time-card work">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-work.svg" alt="Work">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Work</h2>
+          <span class="time-card-daily time-card-times">
+            <span>5hrs</span>
+            <span>Yesterday - 7hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>32hrs</span>
+            <span>Last Week - 36hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>103hrs</span>
+            <span>Last Month - 128hrs</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="time-card play">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-play.svg" alt="Play">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Play</h2>
+          <span class="time-card-daily time-card-times">
+            <span>1hrs</span>
+            <span>Yesterday - 2hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>10hrs</span>
+            <span>Last Week - 8hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>23hrs</span>
+            <span>Last Month - 128hrs</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="time-card study">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-study.svg" alt="Study">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Study</h2>
+          <span class="time-card-daily time-card-times">
+            <span>0hrs</span>
+            <span>Yesterday - 1hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>4hrs</span>
+            <span>Last Week - 7hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>13hrs</span>
+            <span>Last Month - 19hrs</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="time-card excercise">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-exercise.svg" alt="Exercise">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Excercise</h2>
+          <span class="time-card-daily time-card-times">
+            <span>1hrs</span>
+            <span>Yesterday - 1hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>4hrs</span>
+            <span>Last Week - 5hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>11hrs</span>
+            <span>Last Month - 18hrs</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="time-card social">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-social.svg" alt="Social">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Social</h2>
+          <span class="time-card-daily time-card-times">
+            <span>1hrs</span>
+            <span>Yesterday - 3hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>5hrs</span>
+            <span>Last Week - 10hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>21hrs</span>
+            <span>Last Month - 23hrs</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="time-card self-care">
+        <div class="time-card-top">
+          <img class="time-card-logo" src="/images/icon-self-care.svg" alt="Self Care">
+        </div>
+
+        <div class="time-card-details">
+          <h2 class="time-card-activity">Self Care</h2>
+          <span class="time-card-daily time-card-times">
+            <span>0hrs</span>
+            <span>Yesterday - 1hrs</span>
+          </span>
+          <span class="time-card-weekly time-card-times time-card-show">
+            <span>2hrs</span>
+            <span>Previous - 2hrs</span>
+          </span>
+          <span class="time-card-monthly time-card-times">
+            <span>7hrs</span>
+            <span>Previous - 11hrs</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
